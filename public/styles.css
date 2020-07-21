@@ -167,3 +167,27 @@ textarea:focus {
   color: black;
   outline: none;
 }
+footer {
+  background-color: #232d2f;
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  left: 0px;
+}
+.footer{
+    margin: 2rem 1rem 1rem 1rem;
+    text-align: center;
+}
+.icon{
+    display: inline-block;
+    padding: 2rem 5rem;
+}
+.fab,.far{
+    color: #54dcf2;
+}
+.footer-text{
+    color: #54dcf2;
+    text-align: center;
+    margin: 1rem;
+    opacity: 1;
+}
