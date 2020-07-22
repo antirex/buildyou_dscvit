@@ -160,6 +160,9 @@ textarea:focus {
   color: black;
   outline: none;
 }
+#skills, #footer{
+  margin: 5vh;
+}
 footer {
   background-color: #232d2f;
   position: absolute;
