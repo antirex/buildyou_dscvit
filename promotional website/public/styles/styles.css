@@ -31,11 +31,10 @@ h3 {
 
 /* Navbar Toggler */
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(25,55,25)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   border-radius: 3px;
+  color:white;
   padding: 1rem;
-  margin-top: 1rem;
-  margin-right: 30rem;
   float: left;
 }
 
@@ -76,15 +75,15 @@ h3 {
 }
 
 .button:hover {
-  background: linear-gradient(266.72deg, #77e7f8 2.79%, #54dcf2 124.07%);
-  transition: ease-in-out 0.2s;
-  border: none;
+  background: linear-gradient(266.51deg, #54DCF2 2.78%, #2A727D 137.53%);
+  border-radius: 10px;
+  outline:none;
 }
 
 .button:focus {
-  background-color: #54dcf2;
-  border: none;
-  outline: none;
+  background: linear-gradient(266.51deg, #54DCF2 2.78%, #2A727D 137.53%);
+border-radius: 10px;
+outline:none;
 }
 .home-image {
   width: 400px;
@@ -94,7 +93,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   margin: 0 0 1.8rem 0;
-  font-size: 100px;
+  font-size: 70px;
   line-height: 120px;
   text-shadow: -5px 0px 10px rgba(84, 220, 242, 0.25),
     5px 0px 10px rgba(84, 220, 242, 0.25),
@@ -134,11 +133,13 @@ h3 {
   height: 0;
   border: 1px solid #fca3f3;
 }
+
 /* resources */
 .resource-image img {
   margin-left: 100px;
   margin-top: 50px;
 }
+
 /* stream */
 .stream-heading {
   text-align: right;
@@ -150,6 +151,7 @@ h3 {
   background: #5f5d5d;
   border-radius: 15px;
 }
+
 /* sponsor */
 .center {
   text-align: center;
@@ -169,6 +171,36 @@ h3 {
 .contact p {
   display: inline-block;
   
+}
+/* footer */
+.footer{
+  position:absolute;
+  width:100%;
+  padding:2rem 4rem;
+  color:white;
+  background:#3E4A51;
+}
+.notify{
+  margin:5rem 0;
+}
+.notify input{
+  padding: 0.5rem 2rem ;
+  background:white;
+  width:60%;
+  color:black;
+  display:inline-block;
+}
+.notify input::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+.notify button{
+  display:inline-block;
+  padding: 0.3rem 2rem ;
+  margin: 0 1rem;
+  background: linear-gradient(266.51deg, #54DCF2 2.78%, #2A727D 137.53%);
+  border-radius: 10px;
+  box-shadow:none;
 }
 /* register form */
 .hr-register {
