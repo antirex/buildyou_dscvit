@@ -4,6 +4,14 @@ body {
   color: #f1ebeb;
   overflow-x: hidden;
 }
+h2 {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+h3 {
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
 /* navbar */
 .navbar {
   font-family: "Metrophobic";
@@ -41,8 +49,8 @@ body {
 .nav-pills .show > .nav-link {
   color: #54dcf2;
   background-color: #161616;
-  border-bottom: 2px solid #54dcf2;
-  border-radius: none;
+  border-bottom: 1px solid #54dcf2;
+  border-radius: 0;
 }
 
 /* home */
@@ -136,11 +144,31 @@ body {
   text-align: right;
 }
 .stream-display {
-  margin:1rem;
+  margin: 1rem;
   width: 1100px;
   height: 435px;
   background: #5f5d5d;
   border-radius: 15px;
+}
+/* sponsor */
+.center {
+  text-align: center;
+  margin: 2rem 4rem;
+}
+/* contact us */
+.contact-image-main {
+  margin: 12rem 1rem;
+}
+.social-image {
+  margin: 2rem 7rem 2rem 0;
+}
+.contact-image {
+  display: inline-block;
+  margin: 1rem 0;
+}
+.contact p {
+  display: inline-block;
+  
 }
 /* register form */
 .hr-register {
