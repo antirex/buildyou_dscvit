@@ -4,6 +4,9 @@ body {
   color: #f1ebeb;
   overflow-x: hidden;
 }
+.container{
+  width:100%;
+}
 h2 {
   margin: 1rem 0;
   font-weight: bold;
