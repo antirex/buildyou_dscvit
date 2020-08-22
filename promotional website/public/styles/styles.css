@@ -3,10 +3,16 @@ body {
   font-family: "Metrophobic", sans-serif;
   color: #f1ebeb;
   overflow-x:hidden;
+  padding-top: 65px;
 }
 .container{
-  width:100%;
+  width:80vw;
+  margin:15vh  10vw;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
 }
+
 h2 {
   margin: 1rem 0;
   font-weight: bold;
@@ -58,14 +64,7 @@ h3 {
 }
 
 /* home */
-.container1 {
-  margin: 8rem 1rem;
-  padding: 2rem;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 30px;
-}
+
 .button {
   margin-top: 1em;
   padding: 1rem 5rem;
@@ -90,10 +89,7 @@ h3 {
 border-radius: 10px;
 outline:none;
 }
-.home-image .resource-image{
-  margin:auto;
-  padding:2rem;
-}
+
 .heading-home {
   font-style: normal;
   font-weight: bold;
@@ -111,40 +107,36 @@ outline:none;
 }
 
 /* about */
-.container2 {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 30px;
+.about-row{
+  align-items: flex-end;
 }
-.about-image1 {
-  margin-top: 30px;
+
+.img-2{
+  max-width: 60%;
+  height: auto;
 }
-.about-image2 {
-  margin-bottom: 20px;
-  margin-left: 100px;
-}
+
+
 .heading-about {
-  font-size: 96px;
+  font-size: 4rem;
   line-height: 96px;
   text-shadow: 0px 5px 10px rgba(252, 163, 243, 0.25),
     5px 0px 10px rgba(252, 163, 243, 0.25),
     0px -5px 10px rgba(252, 163, 243, 0.25),
     -5px 0px 10px rgba(252, 163, 243, 0.25);
 }
-.hr-about {
+.hr-about, .hr-about-right {
   margin-bottom: 2rem;
-  width: 100%;
+  width: 50%;
   height: 0;
   border: 1px solid #fca3f3;
 }
-
 /* resources */
-
-/* stream */
-.stream-heading {
-  text-align: right;
+.resources-row{
+  align-items: center;
 }
+/* stream */
+
 .stream-display {
   margin: 1rem;
   width: 100%;
@@ -159,11 +151,9 @@ outline:none;
   margin: 2rem 4rem;
 }
 /* contact us */
-.contact-image-main {
-  margin: 12rem 1rem;
-}
+
 .social-image {
-  margin: 2rem 7rem 2rem 0;
+  margin: 2rem 5rem 2rem 0
 }
 .contact-image {
   display: inline-block;
@@ -175,11 +165,10 @@ outline:none;
 }
 /* footer */
 .footer{
-  position:absolute;
   width:100%;
-  padding:2rem 4rem;
   color:white;
   background:#3E4A51;
+  padding: 10vh 10vw ;
 }
 .notify{
   margin:5rem 0;
@@ -202,6 +191,8 @@ outline:none;
   background: linear-gradient(266.51deg, #54DCF2 2.78%, #2A727D 137.53%);
   border-radius: 10px;
   box-shadow:none;
+  height: inherit;
+  
 }
 /* register form */
 .hr-register {
@@ -232,7 +223,7 @@ outline:none;
   text-align: left;
   padding: 1rem;
   width: 30rem;
-  margin-bottom: 2rem;
+
   font-size: 1rem;
 }
 .form-input:focus {
@@ -247,4 +238,7 @@ outline:none;
 .form-input::placeholder {
   color: white;
   font-size: 1rem;
+}
+.f-text{
+  font-size: 0.8rem;
 }
