@@ -22,13 +22,21 @@
 
     <!-- Navbar-->
     <nav class="navbar navbar-expand-xl fixed-top" id="myScrollspy">
-
+ 
       <!-- Toggler -->
       <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+          
+        </span>
       </button>
+      
+        <a class="text-center nav-logo" href="#home">
+          <img src="./public/images/Logo.svg" class="brand-pic">
+        </a>
+    
+
 
       <!-- List Items -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,7 +51,7 @@
             <a class="nav-link mx-4 mt-2" href="#resources">Resources</a>
           </li>
           <li>
-            <a class="navbar-brand" href="#home">
+            <a class="navbar-brand navbar-brand-inside" href="#home">
               <img src="./public/images/Logo.svg" class="brand-pic">
             </a>
           </li>
@@ -64,7 +72,7 @@
   <section id="home">
     <div class="container container1">
       <div class="row">
-        <div class="col-lg-7">
+        <div class="col-md-7 order-2 order-md-1">
           <div>
             <h1 class="heading-home">BuildYou.com</h1>
           </div>
@@ -72,7 +80,7 @@
             customize their own fully-working personal portfolio website from scratch.</p>
           <a href="register.html"><button class="btn btn-lg button">Register</button></a>
         </div>
-        <div class="col-lg-5">
+        <div class="col-md-5 order-1 order-md-2 mb-5 mb-md-0">
           <img src="./public/images/Home.svg" alt="" class="img-fluid home-image">
         </div>
       </div>
@@ -81,10 +89,23 @@
 
   <section id="about">
     <div class="container">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-8">
+          <h2 class="heading-about">About Us</h2>
+          <div class="d-flex d-md-block justify-content-center">
+            <div class="hr-about"></div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
       <div class="row about-row">
-        <div class="col-lg-4">
+        
+        <div class="col-lg-4 mb-5 mb-md-0">
 
-          <div class="text-right ">
+          <div class="text-right">
             <img src="./public/images/DSC_Hologram.svg" alt="" class="img-fluid img-2">
           </div>
           <div class="text-left ">
@@ -93,48 +114,53 @@
 
         </div>
 
-      
-      <div class="col-lg-8">
-        <div class="about-content">
-          <h2 class="heading-about">About Us</h2>
-          <div class="hr-about"></div>
-          <p>DSC VIT, one of the most esteemed technical chapters in VIT, is a developers’ community powered by Google
-            Developers. It is a highly reputed non-profit organization aimed at empowering enthusiasts in developing in
-            various technical domains and building solutions for real-world problems by working alongside a
-            well-established design and management team.</p>
-          <br>
-          <p>Vellore Institute of Technology (VIT), Vellore is one of the top-rated engineering colleges in India and an
-            Institute of Eminence (IoE). The University works on ideas and executes tasks of different domains under
-            Student Clubs and Chapters. VIT University has a cosmopolitan atmosphere with 30,000+ students from
-            different corners of India and the globe. The motivated students at VIT are constantly exposed to different
-            work atmospheres under the 100+ clubs and chapters working inside the campus.</p>
+
+        <div class="col-lg-8">
+          <div class="about-content">
+            <p>DSC VIT, one of the most esteemed technical chapters in VIT, is a developers’ community powered by Google
+              Developers. It is a highly reputed non-profit organization aimed at empowering enthusiasts in developing
+              in
+              various technical domains and building solutions for real-world problems by working alongside a
+              well-established design and management team.</p>
+            <br>
+            <p>Vellore Institute of Technology (VIT), Vellore is one of the top-rated engineering colleges in India and
+              an
+              Institute of Eminence (IoE). The University works on ideas and executes tasks of different domains under
+              Student Clubs and Chapters. VIT University has a cosmopolitan atmosphere with 30,000+ students from
+              different corners of India and the globe. The motivated students at VIT are constantly exposed to
+              different
+              work atmospheres under the 100+ clubs and chapters working inside the campus.</p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
 
   <section id="resources">
     <div class="container container1">
+      <div>
+        <h1 class="heading-about">Resources</h1>
+        <div class="d-flex d-md-block justify-content-center">
+          <div class="hr-about"></div>
+        </div>
+      </div>
       <div class="row resources-row">
-        <div class="col-lg-8">
-          <div>
-            <h1 class="heading-about">Resources</h1>
-            <div class="hr-about"></div>
-          </div>
+        
+        <div class="col-lg-8 order-md-1 order-2">
+          
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu mattis cras posuere est lectus morbi massa
             dapibus bibendum. Lacus bibendum neque erat tellus. Vehicula ultrices erat sit sed sed turpis eget. In
             tellus quisque amet viverra. In fermentum tincidunt mus viverra enim. Massa massa sed diam commodo enim
             parturient nulla. Interdum ut nibh cursus pretium ipsum vel facilisi viverra. Condimentum ac tortor faucibus
             semper.
           </p>
-           <p>Condimentum dui, duis elementum ut facilisi pellentesque enim. Orci morbi in quam pulvinar. Et, a
+          <p>Condimentum dui, duis elementum ut facilisi pellentesque enim. Orci morbi in quam pulvinar. Et, a
             diam at cras at augue felis. Sed mattis aliquam quisque non. In est, tristique eu viverra vulputate
             eleifend. Non gravida odio in scelerisque nisl, eleifend erat dui. Eget fames mattis ornare eleifend
             interdum. Felis amet senectus venenatis mollis cras tellus, lacus velit. Justo lectus iaculis risus eget sed
             enim.</p>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4 text-center order-1 order-md-2 mb-5 mb-md-0">
           <img src="./public/images/Resources_Hologram.svg" alt="" class="img-fluid img-2">
         </div>
       </div>
@@ -143,12 +169,11 @@
 
   <section id="stream">
     <div class="container">
-      <div class="stream-heading text-right">
+      <div class="text-md-right">
         <h1 class="heading-about">Stream</h1>
-        <div class="d-flex flex-row-reverse">
+        <div class="d-flex  justify-content-center justify-content-md-end">
           <div class="hr-about"></div>
         </div>
-        
       </div>
       <div class="stream-display"></div>
     </div>
@@ -156,12 +181,15 @@
 
   <section id="sponsors">
     <div class="container container1">
+      <div>
+        <h1 class="heading-about">Sponsors</h1>
+        <div class="d-flex d-md-block justify-content-center">
+          <div class="hr-about"></div>
+        </div>
+      </div>
       <div class="row resources-row">
-        <div class="col-lg-8">
-          <div>
-            <h1 class="heading-about">Sponsors</h1>
-            <div class="hr-about"></div>
-          </div>
+        <div class="col-md-8 order-2 order-md-1">
+          
           <p>Our aim is to help every budding developer grow in their desired field and contribute to society with
             something impactful and beneficent. We are grateful to all of our sponsors which helped us provide these
             talented students a free of cost medium to hone their skills and make a name for themselves in the
@@ -170,7 +198,7 @@
             conduct the event smoothly without any hassle and and the contribution of our sponsors helped us in
             conducting this free event.</p>
         </div>
-        <div class="col-lg-4 text-right">
+        <div class="col-md-4 text-md-right mb-5 mb-md-0 order-1 order-md-2">
           <img src="./public/images/Sponsors_Hologram.svg" alt="" class="img-fluid img-2">
         </div>
       </div>
@@ -182,21 +210,29 @@
         <a href=""><button class="btn btn-lg button">Download Brochure</button></a>
       </div>
     </div>
-    
-    
+
+
   </section>
 
   <section id="contact">
     <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <h1 class="heading-about">Contact Us</h1>
+          <div class="d-flex d-md-block justify-content-center">
+            <div class="hr-about"></div>
+          </div>
+        </div>
+      </div>
       <div class="row resources-row">
-        <div class="col-lg-4">
+        <div class="col-md-4 mb-5 mb-md-0">
           <img src="./public/images/Contact_Hologram.svg" class=" img-fluid img-2" alt="">
         </div>
-        <div class="col-lg-8">
-          <h1 class="heading-about">Contact Us</h1>
-          <div class="hr-about"></div>
-          <h2>Socials</h2>
-          <div class="d-flex">
+        <div class="col-md-8">
+          
+          <h2 class="mb-5 ">Socials</h2>
+          <div class="d-flex justify-content-between">
             <a href="#"><img src="./public/images/socialmedia+contact_icons/instagram_pink.svg" class="social-image"
                 alt=""></a>
             <a href="#"><img src="./public/images/socialmedia+contact_icons/facebook_pink.svg" class="social-image"
@@ -208,7 +244,7 @@
             <a href="#"><img src="./public/images/socialmedia+contact_icons/mail_pink.svg" class="social-image"
                 alt=""></a>
           </div>
-          <h2>Point Of Contact</h2>
+          <h2 class="mt-5">Point Of Contact</h2>
           <div class="row">
             <div class="contact col-lg-6">
               <h3>Angad Sharma</h3>
@@ -232,41 +268,51 @@
 
   <section>
     <div class="footer">
+      <h1 class="footer-heading">Developer Students Club VIT</h1>
       <div class="row">
-        <div class="col-lg-7 text-center">
-          <h1>Developer Students Club VIT</h1>
+
+        <div class="col-lg-7 text-center order-2 order-md-1">
+          
           <div class="row">
-            <div class="col-lg-4 text-center">
-              <h3>Socials</h3>
-              <p class="f-text">Instagram</p>
-              <p class="f-text">Twitter</p>
-              <p class="f-text">LinkedIn</p>
-              <p class="f-text">Facebook</p>
-            </div>
-            <div class="col-lg-4 text-center">
-              <h3>Explore</h3>
+            <div class="col-lg-4 text-center col-6">
+              
+              <h3 class="footer-text-small">Explore</h3>
               <p class="f-text">Home</p>
-              <p class="f-text" >About Us</p>
+              <p class="f-text">About Us</p>
               <p class="f-text">Resources</p>
               <p class="f-text">Streams</p>
-              <p class="f-text">Sponsors</p>
+              <p class="f-text">Sponsors</p> 
               <p class="f-text">Contact Us</p>
               <p class="f-text">Register</p>
             </div>
-            <div class="col-lg-4 text-center">
-              <h3>Legal</h3>
-              <p class="f-text">Code Of Conduct</p>
-              <p class="f-text">Terms and Conditions</p>
-              <p class="f-text">Privacy Policy</p>
-            </div>
+            <span class="col-lg-8 row col-6 ">
+              <div class="col-lg-6 text-center ">
+                <h3 class="footer-text-small">Socials</h3>
+                <p class="f-text">Instagram</p>
+                <p class="f-text">Twitter</p>
+                <p class="f-text">LinkedIn</p>
+                <p class="f-text">Facebook</p>
+
+
+
+
+              </div>
+              <div class="col-lg-6 text-center">
+                <h3 class="footer-text-small">Legal</h3>
+                <p class="f-text">Code Of Conduct</p>
+                <p class="f-text">Terms and Conditions</p>
+                <p class="f-text">Privacy Policy</p>
+              </div>
+            </span>
+            
           </div>
         </div>
-        <div class="col-lg-5 notify">
-          <p class="f-text">Want to stay updated with the latest news about DSC VIT? Sign up and get notifications!</p>
+        <div class="col-lg-5 notify order-md-2 order-1">
+          <p class="f-text  mb-3">Want to stay updated with the latest news about DSC VIT? Sign up and get notifications!</p>
           <div class="d-flex align-items-center">
             <input type="email" placeholder="Enter your email" class="form-input">
-            <button class="btn btn-lg button">Submit</button>
-  
+            <button class=" btn-lg button btn-submit">Submit</button>
+
           </div>
         </div>
       </div>

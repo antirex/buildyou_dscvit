@@ -12,7 +12,7 @@ body {
 }
 .container{
   width:80vw;
-  margin:15vh  10vw;
+  margin:15vh 10vw;
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
@@ -36,7 +36,10 @@ h3 {
   background-color: #161616;
   padding-bottom: 1rem;
 }
-
+.nav-logo{
+  width: 100%;
+  display: none;  
+}
 .navbar a {
   color: #ffffff;
 }
@@ -96,19 +99,23 @@ outline:none;
 }
 
 .heading-home {
+  font-family: Metropolis;
   font-style: normal;
   font-weight: bold;
-  margin: 0 0 1.8rem 0;
-  font-size: 70px;
-  line-height: 120px;
-  text-shadow: -5px 0px 10px rgba(84, 220, 242, 0.25),
-    5px 0px 10px rgba(84, 220, 242, 0.25),
-    0px -5px 10px rgba(84, 220, 242, 0.25),
-    0px 5px 10px rgba(84, 220, 242, 0.25);
+  font-size: 5rem;
+  
+  color: #161616;
+  /* identical to box height */
+  -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: #54DCF2;
+  
+  text-shadow:  0px 5px 10px rgba(84, 220, 242, 0.25), 5px 0px 10px rgba(84, 220, 242, 0.25), 0px -5px 10px rgba(84, 220, 242, 0.25), -5px 0px 10px rgba(84, 220, 242, 0.25);
+  
+
 }
 .brand-pic {
-  width: 100%;
   height: 80px;
+  width: auto;
 }
 
 /* about */
@@ -135,7 +142,7 @@ color: #161616;
 
 text-shadow:  0px 5px 10px rgba(252, 163, 243, 0.25), 5px 0px 10px rgba(252, 163, 243, 0.25), 0px -5px 10px rgba(252, 163, 243, 0.25), -5px 0px 10px rgba(252, 163, 243, 0.25);
 }
-.hr-about, .hr-about-right {
+.hr-about{
   margin-bottom: 2rem;
   width: 50%;
   height: 0;
@@ -162,9 +169,7 @@ text-shadow:  0px 5px 10px rgba(252, 163, 243, 0.25), 5px 0px 10px rgba(252, 163
 }
 /* contact us */
 
-.social-image {
-  margin: 2rem 5rem 2rem 0
-}
+
 .contact-image {
   display: inline-block;
   margin: 1rem 0;
@@ -181,7 +186,7 @@ text-shadow:  0px 5px 10px rgba(252, 163, 243, 0.25), 5px 0px 10px rgba(252, 163
   padding: 10vh 10vw ;
 }
 .notify{
-  margin:5rem 0;
+  margin: 5rem 0;
 }
 .notify input{
   padding: 0.5rem 2rem ;
@@ -194,7 +199,7 @@ text-shadow:  0px 5px 10px rgba(252, 163, 243, 0.25), 5px 0px 10px rgba(252, 163
   color: rgb(0, 0, 0);
   font-size: 1rem;
 }
-.notify button{
+.btn-submit{
   display:inline-block;
   padding: 0.3rem 2rem ;
   margin: 0 1rem;
@@ -233,9 +238,9 @@ text-shadow:  0px 5px 10px rgba(252, 163, 243, 0.25), 5px 0px 10px rgba(252, 163
   text-align: left;
   padding: 1rem;
   width: 30rem;
-
   font-size: 1rem;
 }
+
 .form-input:focus {
   background-color: white;
   color: black;
@@ -251,4 +256,68 @@ text-shadow:  0px 5px 10px rgba(252, 163, 243, 0.25), 5px 0px 10px rgba(252, 163
 }
 .f-text{
   font-size: 0.8rem;
+}
+
+@media (max-width: 992px){
+  .container{
+    margin: 10vh 10vw;
+  }
+  .navbar-brand-inside{
+    display: none;
+  }
+  .nav-logo{
+    display: inline-flex;
+    justify-content: center;
+  }
+  .heading-about, .heading-home{
+    font-size: 3rem;
+    text-align: center;
+  }
+  body{
+    text-align: center;
+  }
+  .img-2{
+    padding: 0 5vw;
+  }
+  .btn{
+    min-width: 50%;
+    max-width: 100%;
+    padding: 1rem 2rem;
+  }
+  .social-image{
+    height: 2rem;
+    width: auto;
+  }
+  h3 {
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+  }
+  .footer-heading{
+    font-size: 1.5rem;
+  }
+  .footer-text-small{
+    font-size: 1.2rem;
+  }
+  .f-text{
+    margin: 0;
+  }
+  .notify{
+    margin: 2rem;
+  }
+  .footer{
+    padding: 10vh 5vw;
+  }
+  .btn-submit{
+    max-width: 30%;
+    padding: 0.3rem 1rem;
+    
+  }
+  .hr-about{
+    width: 70%;
+  }
+
+  
+}
+.navbar-toggler{
+  width: 100%;
 }
