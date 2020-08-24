@@ -26,7 +26,9 @@ h3 {
   margin: 1rem 0;
   padding: 1rem 0;
 }
-
+.adjust-sections{
+  padding-top:100px;
+}
 /* navbar */
 .navbar {
   font-family: "Metrophobic";
@@ -167,6 +169,30 @@ text-shadow:  0px 5px 10px rgba(252, 163, 243, 0.25), 5px 0px 10px rgba(252, 163
   text-align: center;
   margin: 2rem 4rem;
 }
+.carousel{
+  width:100%;
+  outline:none;
+  margin:2rem 1rem 1rem;
+}
+.slick-slide{
+  outline:none;
+  margin:10px;
+}
+.slick-arrow{
+  background-color:#161616;
+  outline:none;
+  border:none;
+  margin:1rem;
+  padding: 1rem;
+}
+.slick-slide img{
+  padding:5rem 1rem;
+  width:100%;
+  border-radius:1rem;
+  background-color:#3E4A51;
+  height:auto;
+}
+
 /* contact us */
 
 
