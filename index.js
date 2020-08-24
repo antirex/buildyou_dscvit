@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.carousel').slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
     infinite:true,
     slidesToScroll: 1,
     cssEase: 'linear',
@@ -8,4 +8,19 @@ $(document).ready(function(){
     nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
     });
   });
- 
+  
+  const config={
+    type: 'carousel',
+  perView: 4,
+  focusAt: 'center',
+  breakpoints: {
+    800: {
+      perView: 2
+    },
+    480: {
+      perView: 1
+    }}
+  };
+
+
+    new Glide('.glide', config).mount()
