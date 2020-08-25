@@ -61,9 +61,8 @@ h3 {
 
 /* Navbar Toggler */
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 92 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 92' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' rgb(252, 163, 243) ' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   border-radius: 3px;
-  background-color: white;
   color: white;
   padding: 1rem;
   float: left;
@@ -88,7 +87,7 @@ h3 {
 .button {
   margin-top: 1em;
   padding: 1rem 5rem;
-  background: linear-gradient(266.72deg, #fca3f3 2.79%, #814d7b 124.07%);
+  background: linear-gradient(266.72deg, rgb(252, 163, 243) 2.79%, #814d7b 124.07%);
   box-shadow: 19px 13px 10px #000000;
   border-radius: 10px;
   color: black;
