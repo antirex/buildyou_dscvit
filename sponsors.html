@@ -13,68 +13,75 @@
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="80">
-    <section id="section-1">
-
-        <!-- Navbar-->
-        <nav class="navbar navbar-expand-xl fixed-top" id="myScrollspy">
-
-          <!-- Toggler -->
-          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <section id="section-1">
+    <nav class="navbar navbar-expand-lg fixed-top" id="myScrollspy">
+ 
+      <!-- Toggler -->
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          
+        </span>
+      </button>
+      
+        <a class="text-center nav-logo navbar-brand" href="#home">
+          <img src="./public/images/Logo.svg" class="brand-pic">
+        </a>
     
-          <!-- List Items -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto nav-pills md" style="width: 100%;">
-              <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link mx-4 mt-2" href="#home">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link mx-4 mt-2" href="#about">About Us</a>
-              </li>
-              <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link mx-4 mt-2" href="#resources">Resources</a>
-              </li>
-              <li>
-                <a class="navbar-brand" href="index.html">
-                    <img src="./public/images/Logo.svg" class="brand-pic">
-                  </a>
-              </li>
-              <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link mx-4 mt-2" href="#sponsors" style="white-space: nowrap;">Sponsors</a>
-              </li>
-              <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link mx-4 mt-2" href="#stream" style="white-space: nowrap;">Stream</a>
-              </li>
-              <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link mx-4 mt-2" href="#contact" style="white-space: nowrap;">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </section>
+      <!-- List Items -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav-pills md" style="width: 100%;">
+          <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link mx-4 mt-2" href="#home">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link mx-4 mt-2" href="#about">About Us</a>
+          </li>
+          <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link mx-4 mt-2" href="#resources">Resources</a>
+          </li>
+          <li>
+            <a class="navbar-brand navbar-brand-inside" href="index.html">
+              <img src="./public/images/Logo.svg" class="brand-pic">
+            </a>
+          </li>
+          <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link mx-4 mt-2" href="#stream" style="white-space: nowrap;">Stream</a>
+          </li>
+          <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link mx-4 mt-2" href="#sponsors" style="white-space: nowrap;">Sponsors</a>
+          </li>
+          <li class="nav-item mx-auto" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link mx-4 mt-2" href="#contact" style="white-space: nowrap;">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </section>
 
       <section>
         <div class="container container1">
           <div class="row">
             <div class="col-lg-8">
-              <div class="register"> 
-                <h1 class="register-heading">Sponsor Us</h1>
-                <hr class="hr-register">
-                <p>lorem ipsum loowginwignivnvnvkvn fweiovwevnweivnwev fweiovwevnweivnwev vinvivnvnsvlks vsdnvoisdnvsiovsdiov josdjvdovlorem ipsum loowginwignivnvnvkvn fweiovwevnweivnwev vinvivnvnsvlks vsdnvoisdnvsiovsdiov josdjvdov</p>  
-              </div>
-              
-            </div>
+              <h1 class="heading-about" style="text-align:left;">Sponsor Us</h1>
+                <div class="hr-about"></div>
+                <p style="text-align:left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu mattis cras posuere est lectus morbi massa
+                  dapibus bibendum.rsus pretium ipsum vel facilisi viverra. Condimentum ac tortor faucibus
+                  semper.
+                </p>
+          </div>
             <div class="col-lg-4">
-              <form>
+              <form style="text-align:left;">
                 <div class="register-form">
                     <input type="text" placeholder="Enter your full name" class="form-input">
                     <input type="text" placeholder="Enter company's name" class="form-input">
                     <input type="email" placeholder="Enter your email" class="form-input">
                     <input type="number" placeholder="Enter your mobile number" class="form-input">
-                    <div class="register-send-button">
-                        <button class="btn btn-lg button">Send</button>
-                    </div>
+                    <div class="adjust flex-column">
+                      <button class="btn btn-lg button">Submit</button>
+                  </div>
                 </div>
               </form>
             </div>
