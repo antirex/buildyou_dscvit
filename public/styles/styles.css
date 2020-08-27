@@ -109,6 +109,7 @@ h3 {
 }
 
 .heading-home {
+  white-space: nowrap;
   font-family: Metropolis;
   font-style: normal;
   font-weight: bold;
@@ -136,7 +137,7 @@ h3 {
 
 .img-2 {
   max-width: 60%;
-  height: auto;
+  min-width: 40%;
 }
 
 
@@ -318,7 +319,11 @@ h3 {
 .f-text {
   font-size: 0.8rem;
 }
-
+@media (max-width: 768px){
+  .heading-home{
+    white-space: normal;
+  }
+}
 
 @media (max-width: 992px) {
   .nav-logo {
@@ -399,6 +404,16 @@ h3 {
   .glide__arrow--right{
     transform: translateX(15vw);
   }
+  .img-container{
+    max-height: 50vh;
+  }
+  .img-fluid{
+    max-height: 50vh;
+  }
 
 }
 
+
+.img-container-half{
+
+}
