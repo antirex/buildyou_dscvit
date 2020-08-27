@@ -71,6 +71,7 @@ h3 {
 .navbar .navbar-toggler {
   outline: none;
   float: left;
+  z-index: 99;
 }
 
 .nav-pills .nav-link.active,
@@ -419,6 +420,9 @@ h3 {
   }
   .img-fluid{
     max-height: 40vh;
+  }
+  .navbar-brand-inside{
+    display: none;
   }
 
 }
