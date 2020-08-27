@@ -283,7 +283,7 @@ h3 {
   border-radius: 10px;
   border: none;
   height: auto;
-  width:30rem;
+  width: 100%;
   background-color: #3e4a51;
   color: white;
   text-align: left;
@@ -293,14 +293,13 @@ h3 {
 }
 
 .form-input:focus {
-  background-color: white;
-  color: black;
   outline: none;
 }
 
-.form-input::placeholder {
-  color: white;
+.form-input::placeholder, input:-internal-autofill-selected  {
   font-size: 1rem;
+  background-color: #3e4a51;
+  color: white;
 }
 
 .f-text {
@@ -313,6 +312,9 @@ h3 {
 }
 
 @media (max-width: 992px) {
+  .form-input, .form-input::placeholder,p {
+    text-align: center;
+  }
   .img-3{
     max-width: 
   }
